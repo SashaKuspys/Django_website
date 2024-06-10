@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "trans-build-invest"
+version = "0.1.0"
+description = ""
+authors = ["SashaKuspys <134163412+SashaKuspys@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
